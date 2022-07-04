@@ -1,8 +1,8 @@
-import csv, json
-from django.shortcuts import render
-from rest_framework.decorators import api_view
-from deutscheBahn.models import Betriebsstelle
+import csv
+import json
+
 from django.http import HttpResponse
+from rest_framework.decorators import api_view
 
 CSV_DATA = 'csvFile/DBNetz-Betriebsstellenverzeichnis-Stand2021-10.csv'
 
